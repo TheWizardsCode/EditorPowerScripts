@@ -21,7 +21,7 @@ Modify your manifest.json file found at /PROJECTNAME/Packages/manifest.json by i
 {
 	"dependencies": {
 		...
-		"org.3dtbd.editorpowertools": "https://github.com/3dtbd/EditorPowerScripts.git#release/v[VERSION NUMBER]",
+		"org.3dtbd.editorpowerscripts": "https://github.com/3dtbd/EditorPowerScripts.git#release/v[VERSION NUMBER]",
 		...
   }
 }
