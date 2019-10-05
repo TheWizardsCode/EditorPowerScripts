@@ -8,12 +8,7 @@ We use [Jeff Campbell's Unity Package Tools](https://github.com/jeffcampbellmake
 
 [Full usage instructions](https://github.com/jeffcampbellmakesgames/unity-package-tools/blob/master/usage.md) are available, the below is a summary for convenience. It describes the release process for all 3Dtbd assets.
 
-  0. Ensure all changes you want to release are in the Master branch of your repo and have been thoroughly tested. Push all these changes upstream then tag the branch with:
-
-```bash
-git tag -a v$VERSION -m "v$VERSION"
-```
-
+  0. Ensure all changes you want to release are in the Master branch of your repo and have been thoroughly tested. Push all these changes upstream.
   1. In the Unity Editor open `PackageManifestConfig` which can be found in the project root
   2. Update the Package Version Number, it should be the same as the environment variable `VERSION` (see below)
   3. Review all other settings in particular ensure that the `Package Name` is the same as the environment variable `PACKAGE` (see below)
@@ -35,3 +30,8 @@ git tag -a v$VERSION -m "v$VERSION"
   git push origin release/v$VERSION
   ```
   6. `popd`
+  7.  Tag the master with the version number using:
+
+```bash
+git tag -a v$VERSION -m "v$VERSION"
+```
