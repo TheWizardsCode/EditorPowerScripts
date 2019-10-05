@@ -9,13 +9,15 @@ A small number of useful Unity Editor Scripts, including:
 
 Modify your manifest.json file found at /PROJECTNAME/Packages/manifest.json by including the following line - be sure to replace '[VERSiON NUMBER]' with the released version you want to use. You can see the list of release branches on GitHub.
 
+```
 {
 	"dependencies": {
 		...
-		"org.3dtbd.models": "https://github.com/3dtbd/EditorPowerScripts.git#release/v[VERSION NUMBER]",
+		"org.3dtbd.editorpowerscripts": "https://github.com/3dtbd/EditorPowerScripts.git#release/v[VERSION NUMBER]",
 		...
   }
 }
+```
 
 # Tools
 
